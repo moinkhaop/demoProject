@@ -4,7 +4,7 @@ const history = document.getElementById('history').getElementsByTagName('tbody')
 let count = 0;
 
 button.addEventListener('click', function() {
-  const names = ['张三', '李四', '王五', '赵六', '钱七',"土豆", "西红柿", "吴琪","吴琪"];
+  const names = ['苏在在', '张陆让', '顾然', '姜佳', '宋焰',"许沁", "番茄", "吴琪","吴琪","吴琪"];
   const index = Math.floor(Math.random() * names.length);
   const name = names[index];
   result.textContent = name;
