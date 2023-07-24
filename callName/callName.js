@@ -14,4 +14,8 @@ button.addEventListener('click', function() {
   const cell2 = row.insertCell(1);
   cell1.textContent = count;
   cell2.textContent = name;
+   if(name  == "吴琪"){
+    //修改表格内字体颜色
+    cell2.style.color = "red";
+  }
 });
