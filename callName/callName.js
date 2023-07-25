@@ -4,7 +4,7 @@ const history = document.getElementById('history').getElementsByTagName('tbody')
 let count = 0;
 
 button.addEventListener('click', function() {
-  const names = ['苏在在', '张陆让', '顾然', '姜佳', '宋焰',"许沁", "番茄", "吴琪","吴琪","吴琪"];
+  const names = ['苏在在', '张陆让', '顾然', '姜佳', '宋焰',"许沁", "番茄", "吴琦","吴琦","吴琦"];
   const index = Math.floor(Math.random() * names.length);
   const name = names[index];
   result.textContent = name;
@@ -14,7 +14,7 @@ button.addEventListener('click', function() {
   const cell2 = row.insertCell(1);
   cell1.textContent = count;
   cell2.textContent = name;
-   if(name  == "吴琪"){
+   if(name  == "吴琦"){
     //修改表格内字体颜色
     cell2.style.color = "red";
   }
